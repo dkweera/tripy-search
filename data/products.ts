@@ -5,7 +5,7 @@ export type Product = {
 };
 
 export const products: Product[] = Array.from(
-  { length: 900 },
+  { length: 1000 },
   (_, i) => ({
     id: i,
     name: `Product ${i}`,
